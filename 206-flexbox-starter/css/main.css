@@ -12,8 +12,7 @@
 
 html {
     color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: 16px;
 }
 
 /*
@@ -96,82 +95,126 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #333;
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Noto Serif SC', serif;
   padding: 0 2em;
-  font-size: 1.25em;
   height: 100%;
   color: #fff;
 }
 
-header,
-footer {
-  background-color: #222;
-  height: 80px;
+header {
+  display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100px;
   width: 100%;
+	margin: 2% 2% 0 2%;
+	padding-bottom: 2%;
+	border-bottom: #666 1px solid;
 }
 
-main {
-  background-color: #ccc;
-  height: 250px;
-  width: 100%;
-}
-
-header,
-footer,
 main {
   display: flex;
+	justify-content: flex-start;
+	align-items: left;
+	width: 100%;
+	margin: 2%;
+	padding-bottom: 2%;
+	border-bottom: #666 1px solid;
+}
+
+footer {
+	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: left;
+  height: 80px;
+  width: 100%;
+	border-top: #666 1px solid;
+	margin-top: 2%;
 }
 
 .wrapper {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 #div-1,
 #div-2,
 #div-3 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.25em;
-  height: 200px; /***** changed from auto *****/
+	padding: 0 1em 0 1em;
+  height: 225px; /***** changed from auto, then 200px *****/
 }
 
-.wrapper span {
-  font-family: 'Lora', sans-serif;
-  font-size: 1.3em;
+#div-1,
+#div-2 {
+	border-right:#666 1px solid;
 }
 
 .flex-container {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: left;
 	flex-flow: row wrap;
-	
 }
 
 .flex-items {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: left;
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
   width: 30%;
   height: auto; /***** changed from 200px *****/
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 4em;
+	text-align: left;
+}
+
+h2 {
+	font-family: 'Noto Serif SC', serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+h3 {
+	font-family: 'Noto Serif SC', serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+h3 a:link{
+	font-family: 'Noto Serif SC', serif;
+	font-weight: 400;
+	font-size: 1em;
+	color:#EF01F9;
+	text-decoration: none;
+}
+
+.flex-items p {
+	font-family: 'Noto Serif SC', serif;
+	font-size: .85em;
+	font-weight: normal;
+}
+
+.flex-items span {
+	font-family: 'Noto Serif SC', serif;
+	font-size: .85em;
+	font-weight: bold;
+	font-style: italic;
 }
 
 /* ==========================================================================
