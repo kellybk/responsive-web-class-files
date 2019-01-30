@@ -58,29 +58,30 @@ p {
 
 header {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	flex-flow: column;
 	width: 100%;
-	height: 110px;
+	height: 400px;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 }
 
 header h1 {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
-	margin: 0;
-	padding: 2.375rem 0;
+	margin: 1em 0 0 0;
+	padding: 2.375rem 0.625em;
+	width: 90%;
+	border-bottom: 3px solid #77a466;
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	
-	float: right;
-	padding: 2.875rem 0;
+	padding: 1.875rem 0;
 }
 header nav ul {
 	margin: 0;
@@ -90,8 +91,9 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875rem;
-	padding: 0 0.625rem;
-	display: inline;
+	padding: 0.625rem 0;
+	display: block;
+	text-align: center;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -116,7 +118,7 @@ header nav ul li a{
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	flex-flow: row nowrap;
+	flex-flow: column;
 }
 
 .main-image {
@@ -146,7 +148,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
 	float: left;
 	border-top: 1px solid #eee;
@@ -156,14 +158,9 @@ header nav ul li a{
 	padding: 0.625rem 0;
 }
 
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
 .section-two h4,
 .section-three h4 {
-	padding: 0.625rem 1.875rem;
+	padding: 0.625rem 0;
 }
 
 .menu {
@@ -179,13 +176,11 @@ header nav ul li a{
 	color: #333;
 	font-size: 1rem;
 	line-height: 1.31rem;
-	padding: 0 2em;
 }
 
 .address {
 	font-size: 1rem;
 	line-height: 1.5rem;
-	padding: 0 2em;
 }
 
 /*The widths are in a percentage!*/
@@ -235,7 +230,9 @@ header h1 span {
 }
 
 header nav {
-	
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	float: right;
 	padding: 2.875rem 0;
 }
@@ -247,7 +244,7 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875rem;
-	padding: 0 0.625rem;
+	padding: 0 0 0 0.625rem;
 	display: inline;
 }
 header nav ul li a{
@@ -394,11 +391,12 @@ header h1 span {
 }
 
 header nav {
-	
 	float: right;
 	padding: 2.875rem 0;
 }
 header nav ul {
+	display: flex;
+	justify-content: space-between;
 	margin: 0;
 	padding: 0;
 }
@@ -406,7 +404,7 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875rem;
-	padding: 0 0.625rem;
+	padding: 0 0 0 0.625rem;
 	display: inline;
 }
 header nav ul li a{
