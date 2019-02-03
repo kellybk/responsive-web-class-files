@@ -97,6 +97,115 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*------------------------ Base Header & Footer Styles----------------------*/
+
+header,
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row nowrap;
+}
+
+header .content-wrapper{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row nowrap;
+}
+
+header nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row nowrap;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer .social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-area {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row nowrap;
+}
+
+aside {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row nowrap;
+}
+
+.features {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row nowrap;
+}
+
+.features .features-items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.reviews {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.mission {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.contact-section {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.faq {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.faq .content-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
