@@ -240,12 +240,21 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+	background-color: #527158;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-footer .social {
+footer .social-icons p i {
+	font-size: 1.3125em;
+}
+
+.footer .social {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -664,6 +673,11 @@ input[type=button] {
 		line-height: 1.285em;
 	}
 	
+	footer .social-icons {
+		width: 12.5em;
+		justify-content: space-between;
+	}
+	
 	footer .copyright {
 		width: 100%;
 	}
@@ -746,6 +760,11 @@ input[type=button] {
 		font-size: 1.125em;
 		line-height: 1.333em;
 	}
+	
+	footer .social-icons p {
+	width: 50px;
+	height: 50px;
+}
 	
 	/*----- Hero Area -----*/
 	
