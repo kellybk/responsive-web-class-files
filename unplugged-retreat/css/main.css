@@ -160,11 +160,11 @@ address {
 
 header,
 footer{
+	background-color: #202322;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	background-color: #202322;
 }
 
 header {
@@ -195,24 +195,29 @@ header figure {
 }
 
 header nav{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-flow: row wrap;
 	width: 60%;
 	font-size: 1.125em;
 	font-weight: 700;
 	text-transform: uppercase;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+	
 }
 
 header nav ul {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 header nav ul li {
 	font-size: 1.125em;
+	margin: 0;
+	padding: 0;
 }
 
 footer {
@@ -275,7 +280,7 @@ footer .copyright {
 	background-position: center;
 	min-height: 500px;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	flex-flow: row wrap;
 }
 
@@ -577,6 +582,13 @@ input[type=button] {
 	
 	header nav ul {
 		justify-content: space-between;
+		margin: 0;
+		padding: 0;
+	}
+	
+	header nav ul li {
+		margin: 0 20px;
+		padding: 0;
 	}
 	
 	.header-divider {
@@ -587,9 +599,10 @@ input[type=button] {
 	
 	.hero-area h1 {
 		font-size: 3em;
-		line-height: 1em;
+		line-height: 1.125em;
 		margin: 0;
 	}
+	
 	
 	/*----- Aside ------*/
 	
@@ -769,9 +782,10 @@ input[type=button] {
 	/*----- Hero Area -----*/
 	
 	.hero-area h1 {
-		width: 60%;
 		font-size: 3.75em;
+		width: 60%;
 	}
+	
 	
 	/*----- Aside Area -----*/
 	
